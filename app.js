@@ -1,7 +1,7 @@
 
 var dateInput = document.querySelector("#date-input");
 var checkBtn = document.querySelector("#check-btn");
-var output = document.querySelector("#output");
+var output = document.querySelector("#output-area");
 
 
 

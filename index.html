@@ -9,23 +9,23 @@
 </head>
 <body>
 
-    <main>
+    <div class='main-container'>
 
         <h1>Check out if your <span class="clr-change">Birthdate</span> is <span class="clr-change">Palidrome</span>.</h1>
-        <div style="color: darkred; font-weight: 600;">This app checks your birthdate in 6 formats yyyy-mm-dd, dd-mm-yyyy, mm-dd-yy, dd-mm-yy, mm-dd-yy, yy-mm-dd</div>
+        <div style="color: white; font-weight: 600;">This app checks your birthdate in 6 formats yyyy-mm-dd, dd-mm-yyyy, mm-dd-yy, dd-mm-yy, mm-dd-yy, yy-mm-dd</div>
 
         <div id="notice-div"> <div style="font-weight: bold; margin: 0; padding-bottom: 5px;">Notice:</div> We are not storing any personal information!</div>
-
+        <div class="input-feilds">
         <input type="date" id="date-input" required />
         
         <button id="check-btn">Check</button>
-
+        </div>
         
-        <div id="output"></div>
+        <div id="output-area"></div>
 
 
 
-    </main>
+    </div>
 
 <script src="app.js"></script>
     
